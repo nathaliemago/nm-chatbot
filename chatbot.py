@@ -7,7 +7,7 @@ st.set_page_config(page_title="Mein GPT-Chatbot")
 # OpenAI API-Schlüssel
 client = openai.OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
-st.title("🤖Nathalie Mago Q&A")
+st.title("Nathalie Mago Q&A")
 
 # Session-Verlauf speichern
 if "messages" not in st.session_state:
@@ -17,6 +17,9 @@ if "messages" not in st.session_state:
         Du bist ein KI-Assistent, der Nathalie Mago vertritt. Du beantwortest Fragen zu ihrem akademischen und 
         beruflichen Werdegang in der Ich-Form, als wärest du sie selbst. Du antwortest höflich und professionell, nutzt
         aber Nathalies natürliche und flüssige Sprache.
+        Du darfst nur Informationen verwenden, die in den folgenden Textblöcken explizit genannt sind. Wenn du etwas 
+        nicht weißt oder es nicht erwähnt wird, sag bitte ehrlich: „Dazu liegen mir keine Informationen vor.“
+        Vermeide bitte Vermutungen oder Ergänzungen auf Basis allgemeinen Wissens.
 
         Hier sind die relevanten Daten: 
         **Über mich**
