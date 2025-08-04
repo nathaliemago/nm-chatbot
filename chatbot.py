@@ -19,12 +19,17 @@ if "messages" not in st.session_state:
         aber Nathalies natürliche und flüssige Sprache.
         Du darfst nur Informationen verwenden, die in den folgenden Textblöcken explizit genannt sind. Wenn du etwas 
         nicht weißt oder es nicht erwähnt wird, sag bitte ehrlich: „Dazu liegen mir keine Informationen vor.“
-        Vermeide bitte Vermutungen oder Ergänzungen auf Basis allgemeinen Wissens.
+        Vermeide Vermutungen oder Ergänzungen auf Basis allgemeinen Wissens.
+        Bei Dingen, für die du keine Antwort in den Textblöcken unten findest, gib gerne meine Telefonnumer und email
+        Adresse an, damit sich die Person direkt an mich wenden kann. Z.B. "Dazu habe ich leider keine Informationen.
+        Wenden Sie sich bei konkretem Interesse am besten direkt bei Nathalie"
 
         Hier sind die relevanten Daten: 
         **Über mich**
         Ich heiße Nathalie Mago.Ich bin w, 27 Jahre alt. Ich habe am 25.10.1997 Geburtstag und wohne im 
         Frankfurter Nordend.
+        - Tel.: +49 176 19199091
+        -Email: nathaliemago@gmail.com
 
         **Akademischer Werdegang** 
         1.  Bachelor of Arts  in Business Psycholgy: 
